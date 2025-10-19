@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #20202d;
+    
+    color: white;
+}
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+
+}
+.hero{
+    padding-top: 30px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.social-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-content {
+    padding: 100px 0 155px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    display: inline-block;
+    font-family: "Roboto", sans-serif ;
+    max-width: 418px;
+    margin-top: -10px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: #FFBB01;
+    line-height: 28px;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.hero-description {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 38px;
+
+}
+
+.button {
+    box-shadow: 0 4px 0 0 #b68500;
+    background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+    border-radius: 5px 5px 10px 10px;
+    border: none;
+    padding: 24px 42px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+button:hover {
+    background: linear-gradient(180deg, #ffbb01 0%, #fdde76 100%);
+    transition: all 0.2s ease-in-out;
+}
+.button:active {
+    background: linear-gradient(180deg, #b68500 0%, #ffbb01 100%);
+    box-shadow: 0 2px 0 0 #b68500 ;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2px;
+}
+.hero-button {
+    
+}
+
+.hero-avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url(../img/Lucid_Origin_A_highly_detailed_black_and_white_image_of_a_prog_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -40px;
+    border: #d6d6d6 13px solid;
+}
