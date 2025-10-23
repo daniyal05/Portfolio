@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daniyal Kurbanov</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
     <header class="hero">
@@ -23,20 +24,20 @@
              </div>
              <div class="hero-content">
                 <div class="hero-text">
-                    <span class="hero-subtitle">Фрилансер</span>
-                    <h1 class="hero-title">Даниял Курбанов</h1>
-                    <p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-                    <button class="button hero-button">Бесплатная консультация</button>
+                    <span class="hero-subtitle wow fadeInLeft">Фрилансер</span>
+                    <h1 class="hero-title wow fadeInLeft"data-wow-delay="0.5s">Даниял Курбанов</h1>
+                    <p class="hero-description wow fadeInLeft"data-wow-delay="0.5s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+                    <button class="button hero-button wow fadeInLeft"data-wow-delay="0.5s">Бесплатная консультация</button>
                 </div>
-                <div class="hero-avatar"></div>
+                <div class="hero-avatar wow fadeInRight"  data-wow-delay="0.5s"></div>
              </div>
         </div>
     </header>
     <main>
         <section class="features section">
             <div class="container">
-                <h2 class="section-title">Со мной удобно работать</h2>
-                <div class="features-block">
+                <h2 class="section-title wow fadeInLeft" data-wow-delay="0.5s">Со мной удобно работать</h2>
+                <div class="features-block wow fadeInLeftBig">
                     <div class="feature-item">
                         <img src="img/features/offer-img.svg" alt="По договору" class="features-image">
                         <h3 class="features-title">По договору</h3>
@@ -59,7 +60,7 @@
                     </div>
                     <div class="feature-item">
                         <img src="img/features/storage-img.svg" alt="Хостинг и домен" class="features-image">
-                        <h3 class="features-title">Чостинг и домен</h3>
+                        <h3 class="features-title">Хостинг и домен</h3>
                         <p class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
                     </div>
                     <div class="feature-item">
@@ -68,6 +69,12 @@
                         <p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="slider-section">
+            <div class="container">
+                <h2 class="section-title">Со мной удобно работать</h2>
+                <div class="slider"></div>
             </div>
         </section>
     </main>
@@ -95,17 +102,28 @@
                         </div>
                         <div class="contacts-social">
                             <h4 class="contacts-title">Соцсети</h4>
-                            <a href="" class="contacts-link">TG</a>
-                            <a href="" class="contacts-link">Inst</a>
-                            <a href="" class="contacts-link">Git</a>
+                            <a href="" class="contacts-link">Telegram</a>
+                            <a href="" class="contacts-link">Instagram</a>
+                            <a href="" class="contacts-link">GitHub</a>
                         </div>
 
                     </div>
+                    <div class="social-links social-links-footer">
+                        <!-- social-links -->
+                            <a href="https://github.com/daniyal05" class="social-link"><img src="./img/socials/github.svg" alt="github"></a>
+                            <a href="#" class="social-link" class="social-link"><img src="./img/socials/twitter.svg" alt="twitter"></a>
+                            <a href="#" class="social-link" class="social-link"><img src="./img/socials/instagram.svg" alt="instagram"></a>
+                            <a href="#" class="social-link" class="social-link"><img src="./img/socials/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <a href="#" class="contacts-policy">Политика конфиденциальности</a>
                 </div>
             </div>
 
         </div>
         
     </footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
