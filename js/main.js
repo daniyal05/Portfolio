@@ -1,6 +1,6 @@
 new WOW().init();
 
-  const swiper = new Swiper('.swiper', {
+const Swiper = new Swiper ('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -14,7 +14,6 @@ new WOW().init();
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
+    }
   
-    // And if we need scrollbar
   })
