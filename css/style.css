@@ -148,23 +148,160 @@ button:hover {
     line-height: 28px;
     padding-right: 20px;
 }
-/* swiper */
+/* swiper *//* swiper */
 
-   .swiper {
-    padding: 30px;
-    
+.swiper {
+    width: 100%;
+    margin: 0 auto;
 }
+
+.slider-img{
+    width: 340px;
+    height: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
 .swiper-wrapper {
-    padding: 30px 0;
-    background-repeat: no-repeat !important;
-}
-.swiper-slide{
-    object-fit: cover !important;
-    width: 100% !important;
 
 }
 
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 400px !important;
+    gap: 62px;
+}
 
+.swiper-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+.swiper-pagination{
+    padding-top: 15px;
+    position: relative;
+}
+
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    border: #FFC700 solid 2px;
+    opacity: 1;
+    margin: 0 10px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #FFC700;
+}
+
+.swiper-button-prev, .swiper-button-next{
+}
+.slide-title{
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+.swiper-tile {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 65px;
+}
+
+.swiper-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.sroki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sroki-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sroki-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sroki-subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cost-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cost-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.cost-subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feedback-text {
+
+}
+.feedback-icon{
+    margin-bottom: 130px;
+}
+.feedback-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.feedback-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.swiper-pagination {
+
+}
 
 
 
@@ -265,4 +402,5 @@ button:hover {
     text-decoration-line: underline ;
     color: #A5A5A5;
     margin-top: 72px;
+    display: block;
 }

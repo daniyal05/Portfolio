@@ -1,6 +1,4 @@
 new WOW().init();
-
-
 new Swiper('.swiper', {
 
     // Optional parameters
